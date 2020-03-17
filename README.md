@@ -1,8 +1,4 @@
-README
-Provide setup documentation:
-
-Comment your code.
-Provide a readme that includes clear directions on setting up this program.
+# Exception Handling and Debugging
 
 Directions:
 1. Console will ask user to input the amount of numbers to play the game.
