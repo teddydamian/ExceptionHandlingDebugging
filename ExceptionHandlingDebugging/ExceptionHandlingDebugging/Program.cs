@@ -44,8 +44,8 @@ namespace ExceptionHandlingDebugging
                 Console.WriteLine($"Your array size is {array.Length}");
                 Console.WriteLine("Your number in array are [{0}]", string.Join(", ", arr));
                 Console.WriteLine($"Your sum of the array is {sum}");
-                Console.WriteLine($"{sum} * {arr[duuuummyyyy]} = {product}");
-                Console.WriteLine($"{product} / {dummmyyyy} = {quotient}");
+                Console.WriteLine($"{sum} * {product/sum} = {product}");
+                Console.WriteLine($"{product} / {quotient*product} = {quotient}");
                 Console.WriteLine("Program is Complete.");
                 Console.ReadLine();
 
@@ -78,9 +78,6 @@ namespace ExceptionHandlingDebugging
         }
 
 
-
-
-
         static int GetSum(int[] arr)
         {
             int sum = 0;
@@ -94,10 +91,6 @@ namespace ExceptionHandlingDebugging
             }
             return sum;
         }
-
-
-
-
 
         static int GetProduct(int[] Get, int sum)
         {
