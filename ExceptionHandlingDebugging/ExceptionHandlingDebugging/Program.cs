@@ -17,7 +17,7 @@ namespace ExceptionHandlingDebugging
             }
 
         }
-
+        // Console will run this first sequence
 
         static void StartSequence()
         {
@@ -30,22 +30,23 @@ namespace ExceptionHandlingDebugging
 
                 int[] array = new int[convertedInput];
 
-
+                // Passing the array as an argument for Populate
                 int[] arr = Populate(array);
 
-
+                // Passing the arr from Populate as an argument for GetSum
                 int sum = GetSum(arr);
 
-
+                // Passing the sum as an argument for GetProduct
                 int product = GetProduct(arr, sum);
 
+                // Passing the product as an argument for GetQuotient
                 decimal quotient = GetQuotient(product);
 
                 Console.WriteLine($"Your array size is {array.Length}");
                 Console.WriteLine("Your number in array are [{0}]", string.Join(", ", arr));
                 Console.WriteLine($"Your sum of the array is {sum}");
                 Console.WriteLine($"{sum} * {product/sum} = {product}");
-                Console.WriteLine($"{product} / {quotient*product} = {quotient}");
+                Console.WriteLine($"{product} / {product/quotient} = {quotient}");
                 Console.WriteLine("Program is Complete.");
                 Console.ReadLine();
 
@@ -62,7 +63,7 @@ namespace ExceptionHandlingDebugging
             }
         }
 
-
+        // Populating the Array
         static int[] Populate(int[] pop)
         {
 
@@ -77,7 +78,7 @@ namespace ExceptionHandlingDebugging
             return pop;
         }
 
-
+        // Getting the sum of Array
         static int GetSum(int[] arr)
         {
             int sum = 0;
@@ -92,11 +93,12 @@ namespace ExceptionHandlingDebugging
             return sum;
         }
 
+        // Get the multiplication product of chosen number and sum
         static int GetProduct(int[] Get, int sum)
         {
             try
             {
-                Console.WriteLine($"enter a number between 1 and {Get.Length}");
+                Console.WriteLine($"enter a number between 1 and {Get.Length}:");
                 string randomNumber = Console.ReadLine();
                 int userNum = Convert.ToInt32(randomNumber);
 
@@ -113,11 +115,12 @@ namespace ExceptionHandlingDebugging
 
         }
 
+        //Get division product
         static decimal GetQuotient(int product)
         {
             try
             {
-                Console.WriteLine("Enter a number to divide");
+                Console.WriteLine($"Enter a number to divide your product of {product} by:");
                 string input = Console.ReadLine();
 
                 int userNum = Convert.ToInt32(input);
