@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{FA76F157-70CE-4444-97B2-3E10480710C8}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ExceptionHandlingDebugging/Program.cs">
+    <Files>
+      <File FileName="ExceptionHandlingDebugging/Program.cs" Line="24" Column="46" />
+      <File FileName="../../Prework-CodeChallenges/PerfectSequence/PerfectSequence/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ExceptionHandlingDebugging" expanded="True">
+            <Node name="ExceptionHandlingDebugging" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ExceptionHandlingDebugging FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
