@@ -12,4 +12,4 @@ Directions:
 What is the purpose of the program?
 Purpose for this program is to calculate by giving a set of number. It may be use for for other purposes with a little adjustment.
 
-What does the program look like? (visual)
+![alt text](https://github.com/teddydamian/Lab01-ExceptionHandlingDebugging/blob/master/ExceptionHandlingDebugging/ExceptionHandlingDebugging/ExceptionHandling.png)
